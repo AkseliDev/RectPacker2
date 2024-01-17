@@ -4,6 +4,7 @@ The updated version of the rect packing library used for sprite packing. It is u
 ## Example usage
 
 We use a MonoGame example to pack sprites of different sizes up to 32x32 and generate a preview of the sprite atlas.
+
 ![image](https://github.com/AkseliDev/RectPacker2/assets/96961979/9f9436ab-a121-4440-a745-97fdf4892f06)
 
 The program tries to pack as many random sprites until its full. With this exact seed and settings, the packer was able to pack 1369 sprites in total into an area of 512x512.
