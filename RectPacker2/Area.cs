@@ -75,5 +75,9 @@ namespace RectPacker2 {
         public override readonly string ToString() {
             return $"( X: {X}, Y: {Y}, W: {Width}, H: {Height} )";
         }
+
+        public readonly bool Contains(Area value) {
+            return ((((X <= value.X) && ((value.X + value.Width) <= (X + Width))) && (Y <= value.Y)) && ((value.Y + value.Height) <= (Y + Height)));
+        }
     }
 }

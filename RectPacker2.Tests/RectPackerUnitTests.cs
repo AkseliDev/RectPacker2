@@ -35,4 +35,12 @@ public class RectPackerUnitTests
         var packer = new Packer(512, 512);
         Assert.False(packer.TryPack(width, height, out _));
     }
+
+    [Fact]
+    public void Packer_ShouldThrow_WhenFull() {
+        Assert.Throws<Exception>(() => {
+            var packer = new Packer(8, 8);
+            packer.Pack(9, 9);
+        });
+    }
 }
