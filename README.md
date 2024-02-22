@@ -1,5 +1,5 @@
 # RectPacker2
-The updated version of the rect packing library used for sprite packing. It is used to pack rectangles which represent a sprite's source in a sprite atlas into a bigger area as tight as possible. The updated algorithm packs more sprites tightly and supports more features for future updates. The library does not ship any texture generation and is cross platform + graphics api independent.
+The updated version of the rect packing library used for sprite packing. It is used to pack rectangles which represent a sprite's source in a sprite atlas into a bigger area as tight as possible. The updated algorithm packs more sprites tightly and supports more features for future updates. The library now contains a generic sprite atlas implementation that can be used to generate atlas images. The library does not ship any texture generation and is cross platform + graphics api independent.
 
 ## Example usage
 
