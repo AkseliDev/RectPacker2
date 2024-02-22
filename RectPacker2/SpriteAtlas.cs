@@ -148,6 +148,11 @@ public sealed class SpriteAtlas<TPixel> where TPixel : unmanaged {
                 Width = packedArea.Width - options.Padding * 2,
                 Height = packedArea.Height - options.Padding * 2
             });
+            // inset the packed area to not include the edges
+            packedArea.X++;
+            packedArea.Y++;
+            packedArea.Width -= 2;
+            packedArea.Height -= 2;
         }
 
         location = packedArea;

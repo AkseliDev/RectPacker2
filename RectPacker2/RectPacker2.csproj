@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <Version>2.1.0</Version>
+    <Description>The updated version of the rect packing library used for sprite packing. It is used to pack rectangles which represent a sprite's source in a sprite atlas into a bigger area as tight as possible.</Description>
   </PropertyGroup>
 
 </Project>
